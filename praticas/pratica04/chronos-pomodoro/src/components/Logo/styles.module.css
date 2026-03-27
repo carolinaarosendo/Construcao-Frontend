@@ -35,3 +35,31 @@
   color: var(--text-muted);
   cursor: not-allowed; /* Dica: mostra o ícone de "proibido" no mouse */
 }
+/* src/components/Logo/styles.module.css */
+
+.logoLink {
+  text-decoration: none; /* Remove o sublinhado */
+  color: var(--primary);  /* Define a cor (use a variável do seu theme.css) */
+  
+  display: flex;         /* Alinha ícone e texto lado a lado */
+  align-items: center;   /* Centraliza verticalmente */
+  gap: 0.8rem;           /* Dá um espacinho entre o ícone e a palavra Chronos */
+  font-weight: bold;     /* Deixa o texto mais gordinho */
+}
+
+/* Opcional: Efeito ao passar o mouse */
+.logoLink:hover {
+  filter: brightness(1.2); /* Dá um leve brilho quando passa o mouse */
+}
+.logoLink {
+  text-decoration: none;
+  color: var(--text-light); /* Vai ficar naquele bege bonito da paleta */
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: color 0.2s;
+}
+
+.logoLink:hover {
+  color: var(--primary); /* Fica roxo quando passa o mouse */
+}

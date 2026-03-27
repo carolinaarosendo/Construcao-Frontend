@@ -36,3 +36,15 @@
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
 }
+:root {
+  /* Cores da sua nova paleta */
+  --bg-color: #2C2B4B;        /* Azul escuro (Fundo) */
+  --primary: #A75293;         /* Roxo vibrante (Destaques/Botões) */
+  --secondary: #9C7A9D;       /* Roxo acinzentado */
+  --accent: #9DDACB;          /* Verde água (Ícones/Sucesso) */
+  --text-light: #F8DCB4;      /* Bege claro (Texto principal) */
+  
+  /* Variáveis de suporte */
+  --text-muted: rgba(248, 220, 180, 0.6);
+  --white: #FFFFFF;
+}

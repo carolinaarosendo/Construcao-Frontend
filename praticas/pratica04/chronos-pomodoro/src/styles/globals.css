@@ -47,3 +47,18 @@ body {
   flex-direction: column;
   gap: 2.4rem;
 }
+body {
+  background-color: var(--bg-color);
+  color: var(--text-light);
+  font-family: sans-serif;
+}
+
+/* Exemplo de como usar no seu cronômetro */
+h1 {
+  color: var(--text-light);
+}
+
+/* Exemplo para os seus círculos (Ciclos) */
+.cycle-active {
+  background-color: var(--accent);
+}

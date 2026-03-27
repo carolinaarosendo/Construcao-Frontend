@@ -31,3 +31,21 @@
 .longBreakTime {
   background: var(--info);
 }
+/* src/components/Cycles/styles.module.css */
+
+/* Cores específicas para os diferentes tipos de ciclo */
+
+.workTime {
+  /* Substituímos o --warning pelo seu novo Verde Água */
+  background-color: var(--accent); 
+}
+
+.shortBreakTime {
+  /* Se quiser que a pausa curta use o roxo vibrante da paleta */
+  background-color: var(--primary); 
+}
+
+.longBreakTime {
+  /* Se quiser que a pausa longa use o roxo acinzentado */
+  background-color: var(--secondary);
+}

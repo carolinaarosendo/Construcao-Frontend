@@ -28,15 +28,15 @@ export function App() {
         <form className='form' action=''>
           <div className='formRow'>
             <DefaultInput
-              labelText='task'
+              labelText='Tarefa:'
               id='meuInput'
               type='text'
-              placeholder='Digite algo'
+              placeholder='Próximo grande passo...'
             />
           </div>
 
           <div className='formRow'>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Hora de se concentrar!</p>
           </div>
 
           <div className='formRow'>
